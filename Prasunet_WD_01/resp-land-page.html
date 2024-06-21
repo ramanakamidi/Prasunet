@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="./resp.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img class="prasunet-logo" src="./prasunet-logo.png" alt="prasunet company">
+            </div>
+            <button class="menu-button" onclick="toggleMenu()">☰</button>
+            <ul class="menu-list">
+                <li><a href="./resp-land-page.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="#offered">Offered</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Register</a></li>
+            </ul>
+        </div>
+        <div class="section1">
+            <h1>Join Our Team!</h1>
+            <p>We are looking for passionate and innovative interns to be part of our journey</p>
+            <p>Apply now to make a difference and gain invaluable experience!</p>
+        </div>
+        <div class="section2" id="offered">
+            <div class="caption">
+                <h2>We provide internships on</h2>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <h1>Web Development</h1>
+                    <p>Build and maintain websites with modern technologies. Learn HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
+                </div>
+                <div class="box">
+                    <h1>Data Science</h1>
+                    <p>Analyze and interpret complex data to help make informed decisions. Gain skills in Python, R, SQL, and data visualization tools.</p>
+                </div>
+                <div class="box">
+                    <h1>Machine Learning</h1>
+                    <p>Develop algorithms that learn from data and make predictions. Explore Python, TensorFlow, Keras, and real-world applications.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; Prasunet Company</p>
+        </div>
+    </div>
+    <script>// script.js
+        function toggleMenu() {
+            const menuList = document.querySelector('.menu-list');
+            menuList.classList.toggle('active');
+        }
+        </script>
+</body>
+</html>
