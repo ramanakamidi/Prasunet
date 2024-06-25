@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(132, 146, 116);
+}
+.main{
+    height: 100vh;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.cells{
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+.cell{
+    border: 1px solid black;
+
+}
+.resetBtn{
+    height: 28px;
+    width: 106px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cell{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+
+   
+}
+
+@media (max-width:600px){
+.cells{
+    height: 400px;
+    width: 400px;
+}
+
+
+        
+}
