@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+<div class="header">
+    <div class="heading">
+        <p>Portfolio</p>
+    </div>
+    <div class="details">
+        <ul class="details-in">
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <i class="fa-solid fa-bars icon"></i>
+</div>
+
+<div class="banner">
+    <div class="introduce">
+        <p class="t1">I am,</p>
+        <p class="t2">Ramana Kamidi</p>
+        <p class="t3">Student | Web developer | Freelancer</p>
+        <button class="cta"><a href="contact">Contact Us</a></button>
+    </div>
+    <div class="person">
+        <img src="D:\python\profile.jpeg" alt="Profile Picture">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <a href="https://nextinnov.tech/tictactoe/" target="_blank" class="project-item">
+            <div>
+                <h3>Tic Tac Toe</h3>
+                <p>A classic game of Tic Tac Toe built using HTML, CSS, and JavaScript.</p>
+            </div>
+        </a>
+        <a href="https://nextinnov.tech/restaurant/" target="_blank" class="project-item">
+            <div>
+                <h3>Food Much website</h3>
+                <p>An interactive website for a food delivery service, designed to showcase menus and facilitate ordering.</p>
+            </div>
+        </a>
+        <a href="https://ramanakamidi.github.io/tune-tracker/" target="_blank" class="project-item">
+            <div>
+                <h3>Tune Tracker</h3>
+                <p>An application to track your favorite music tunes and artists, built with React and Firebase.</p>
+            </div>
+        </a>
+        <a href="portfolio.html" class="project-item">
+            <div>
+                <h3>TodoList app</h3>
+                <p>A simple yet effective to-do list application with user authentication and task management capabilities.</p>
+            </div>
+        </a>
+        <a href="https://nextinnov.tech/stopwatch/" target="_blank" class="project-item">
+            <div>
+                <h3>Stopwatch</h3>
+                <p>A stopwatch application with lap time recording and reset functionality, developed using JavaScript.</p>
+            </div>
+        </a>
+        <a href="https://ramanakamidi.github.io/dynamic-temperature-tracker/" target="_blank" class="project-item">
+            <div>
+                <h3>Dynamic Temperature Tracker</h3>
+                <p>A dynamic web app to track temperature changes over time, integrated with weather APIs.</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">React.js</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">Express.js</div>
+        <div class="skill-item">SQL</div>
+        <div class="skill-item">MongoDB</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">C Language</div>
+    </div>
+</div>
+
+<div class="experience" id="experience">
+    <h2>Experience</h2>
+    <div class="experience-list">
+        <div class="experience-item">
+            <h3>1.Full Stack Web Development Intern</h3>
+            <p>Main Flow Services and Technologies</p>
+            <p>April 2024 - June 2024</p>
+            <p>Developed and maintained web applications, Using Node Js and collaborated with a team of developers.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>2.Web Development Intern</h3>
+            <p>Prasunet Company</p>
+            <p>June 2024 - July 2024</p>
+            <p>Developed and maintained web applications, using HTML, CSS, and JavaScript.</p>
+        </div>
+    
+    </div>
+</div>
+
+
+<div class="contact" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+        <p>Name: Ramana Reddy Kamidi</p>
+        <p>Email: <a href="mailto:ramanareddykamidi123@gmail.com">ramanareddykamidi123@gmail.com</a></p>
+        <p>Phone: <a href="tel:+916302560674">6302560674</a></p>
+    </div>
+</div>
+
+<div class="foot">
+    <p class="aa">&copy;  Ramana Reddy Kamidi</p>
+</div>
+
+<script>
+    document.querySelector('.icon').addEventListener('click', () => {
+        document.querySelector('.details').classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
